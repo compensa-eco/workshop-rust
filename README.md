@@ -6,6 +6,14 @@ Bem-vindo ao Workshop de Rust da Compensa! Este projeto foi criado com o objetiv
 
 Rust é uma linguagem de programação de sistemas de alto desempenho, focada em segurança, concorrência e eficiência. Com sua sintaxe moderna e recursos poderosos, Rust permite o desenvolvimento de software confiável e eficiente, sem comprometer a segurança. Combinando controle de memória de baixo nível e abstrações de alto nível, Rust oferece um ambiente amigável para desenvolver uma ampla gama de aplicativos, desde sistemas operacionais e drivers de dispositivos até servidores e aplicações Web.
 
+## Instalação
+
+Para instalar o Rust em seu sistema, siga as instruções do site oficial: [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
+
+```
+$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+
 ## Pré-requisitos
 
 Antes de começar com o workshop, certifique-se de ter as seguintes dependências instaladas em seu sistema:
