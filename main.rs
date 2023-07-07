@@ -1,3 +1,7 @@
+
+
+
+
 fn main() {
     println!("Hello, world!");
 
@@ -31,16 +35,37 @@ fn main() {
 
     shadowing();
 
+
+    {
+        let apples = "Maçãs";
+        println!("Eu tenho {} maçãs. dentro do lifetime criado", apples);
+        let apples = 10;
+        println!("Eu tenho {} maçãs. dentro do lifetime criado", apples);
+    }
+
+    //
+    let mut x = 10;
+    let y = 20;
+
+    let calculo = soma(x, y);
+
+    println!("Cálculo: {}", calculo);
+
+}
+
+fn soma(x: i32, y: i32) -> i32 {
+    x + y
 }
 
 // estudando shadowing
-fn shadowing() {
+fn shadowing() { //
     // shadowing
     let apples = 10;
     println!("Eu tenho {} maçãs.", apples);
-    let apples = 20;
+    let apples = "apples";
     println!("Eu tenho {} maçãs.", apples);
-}
+} //
+
 
 fn greet_dog(name: &str) {
     println!("O nome do dog é: {}", name);
