@@ -1,0 +1,20 @@
+Pq Rust?
+
+
+-> Mozilla
+2009
+
+-> Dangling pointers
+ name = "Antonio"
+
+ del name
+ del name
+
+
+
+ Proposito geral
+
+ Game
+ Embarcados
+ Web
+ Mobile
