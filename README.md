@@ -18,7 +18,6 @@ $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
 Antes de começar com o workshop, certifique-se de ter as seguintes dependências instaladas em seu sistema:
 
-- [Rust](https://www.rust-lang.org/tools/install) - Para instalar o Rust em seu sistema, siga as instruções do site oficial.
 - [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) - O Cargo é o gerenciador de pacotes e construtor de projetos para a linguagem Rust. Verifique se o Cargo está instalado junto com o Rust.
 
 ## Estrutura do Projeto
